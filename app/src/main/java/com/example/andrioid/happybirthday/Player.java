@@ -27,6 +27,8 @@ public class Player extends Activity {
 
     }
 
+
+    /*почему блин*/
     private void initViews() {
         buttonPlayStop = (Button) findViewById(R.id.ButtonPlayStop);
         mediaPlayer = MediaPlayer.create(this, R.raw.song);
