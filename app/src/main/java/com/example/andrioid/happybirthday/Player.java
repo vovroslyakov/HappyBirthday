@@ -13,6 +13,8 @@ import android.widget.SeekBar;
 
 public class Player extends Activity {
 
+    /*тест*/
+
     private Button buttonPlayStop;
     private MediaPlayer mediaPlayer;
     private SeekBar seekBar;
