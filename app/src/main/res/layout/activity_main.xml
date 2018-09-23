@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Player">
+
+
+    <SeekBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/happy_birthday_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/hello_str"
+        android:textColor="@color/BasicText"
+        android:textSize="36sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="29dp"
+        android:layout_marginRight="39dp"
+        android:text="From, VN :)"
+        android:textColor="@color/BasicText"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/ButtonPlayStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="220dp"
+        android:onClick="playAndStop"
+        android:text="@string/play_str"
+        android:textAllCaps="false"
+        android:textColor="@color/TextHappy"
+        android:textSize="24sp"
+        android:drawableRight="@drawable/ic_music"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>

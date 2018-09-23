@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HappyBirthday</string>
+
+    <string name="play_str">PLAY\nmusic</string>
+    <string name="pause_str">PAUSE</string>
+    <string name="hello_str">Dear, Amelia!</string>
+
+
+
+</resources>
